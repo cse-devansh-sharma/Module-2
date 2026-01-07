@@ -1,8 +1,7 @@
 class JavaApplication{
 	public static void execution(){
-		System.out.println(BasicCalculator.addition(22,54));
-		System.out.println(BasicCalculator.addition(56,54,67));
-		System.out.println(BasicCalculator.addition(34.34,45.56));
-		System.out.println(BasicCalculator.addition(54.55,67.66));
+		Student s1=new Student("devansh",'M',"12-06-2024","devansh@gmail.com",8544983339l);
+		s1.displayStudentInfo();
+
 	}
 }
